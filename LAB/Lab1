@@ -1,0 +1,24 @@
+Create database school;
+use school;
+create table student
+( USN varchar(15),
+name varchar(15),
+age int,
+m1 int,
+m2 int);
+create table Attendance
+( Date date,
+Day varchar(10));
+create table staff
+( name varchar(10),
+age int,
+salary float,
+staff_id int);
+create table player
+( name varchar(10),
+player_id int,
+age int,
+player_level int);
+alter table player modify name varchar(20);
+desc player;
+  
